@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.counter_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.watch_count {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 4rem;
+}
+
+#watch_count_seconds {
+    padding: 20px;
+    font-size: 3rem;
+}
+
+#watch_count_minutes {
+    padding: 20px;
+    font-size: 3rem;
+}
+
+.counter_metrics {
+    display: flex;
+    flex-direction: row;
+}
+
+#seconds_indicator {
+    font-size: 1rem;
+    margin-right: 1rem;
+    font-style: oblique;
+}
+
+#minutes_indicator {
+    margin-left: 3rem;
+    font-size: 1rem;
+    font-style: oblique;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    margin-right: 1rem;
+    margin-top: 2rem;
+    width: 5rem;
+    height: 3rem;
+    background-color: #fa8231;
+    color: white;
+    border-radius: 20px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 5px black;
+}
